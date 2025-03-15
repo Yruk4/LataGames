@@ -4,7 +4,6 @@
     box-sizing: 0;
 }
 
-
 body{
     height: 100%;
     display: block;
@@ -16,15 +15,12 @@ html, body {
     height: 100%;
     margin: 0;
     flex-direction: column;
-  }
-
+}
 
 /*Inicio dos estilos de fonte*/
 .lata, p{
     text-align: center;
 }
-
-
 
 .p1{
     font-family: 'Times New Roman', Times, serif;
@@ -35,7 +31,6 @@ html, body {
 p{
     color: azure;
     font-size: large;
-    
 }
 
 hr{
@@ -57,7 +52,7 @@ h1{
 }
 
 .h1Noticias{
-    margin-left: 150px;
+    text-align: center; /* Centraliza o título */
 }
 
 h6{
@@ -92,18 +87,11 @@ footer {
     position: relative;
     margin-top: 50vh;
     padding: 20px;
-    
-  }
-
-
-
+}
 
 /* Fim dos estilos de fonte*/
 
-
 /*Personalização imagens*/
-
-
 .imgSonic{
     height: 100vh;
     opacity: 0.2;
@@ -120,6 +108,8 @@ header{
     margin-left: 90px;
     margin-right: 90px;
     display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
     border-radius:30px;
     background-color: rgb(0, 0, 0);
     height: 120vh;
@@ -152,23 +142,18 @@ nav{
     width: 30%; 
     text-align: center; 
     margin-bottom: 20px; 
-  }
-  
-  .item img {
+}
+
+.item img {
     width: 100%; 
     height: auto; 
     border-radius: 8px; 
-  }
-
-
-
+}
 
 /*Fim Personalização imagens*/
 
 /*Inicio classes*/
-
 .lata{
-
     font-size: 90px;
     font-family: 'Press Start 2P', cursive;
     transform: translateY(+50.0px);
@@ -181,8 +166,6 @@ nav{
     background-color: #f80505dc;
     display: block;
     position: relative;
-    
-    
 }
 
 .titulo{
@@ -191,95 +174,124 @@ nav{
     background-image: url(/src/assets/herois.png);
 }
 
-
 .navbar {
     background-color: #333;
     overflow: hidden;
-  }
-  
- /*NAVBAR INICIO*/
+}
 
-  .navbar ul {
+/*NAVBAR INICIO*/
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
- 
-  .navbar ul li {
+}
+
+.navbar ul li {
     flex: 1;
     text-align: center;
-  }
-  
-  
-  .navbar ul li a {
+}
+
+.navbar ul li a {
     display: block;
     color: white;
     text-decoration: none;
     padding: 14px 20px;
     text-transform: uppercase;
-  }
-  
-  .navbar ul li a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  /*NAVBAR FIM*/
-
-  .noticiaGTA{
-    background-color: rgb(0, 0, 0);
-    margin-left: 440px;
-    margin-bottom: 300px;
-  }
-
-  .imgGTA{
-    
-    height: 50vh;
-    width: 80vh;
-    margin: auto;
-    object-fit: cover;
-    max-width: 100%;
-    
-  }
-
-
-  .noticiasSecundarias{
-    position: absolute;
-    top: 120vh; /* Aumente o valor conforme necessário */
-    right: 89px;   
-    left: 59vh;
-    background: #000000;
-    color: white;
-    border-radius: 30px;
-    
-  }
-
-  .textoSecundarias{
-    background-color: #008000;
-  }
-
-
-.conteudo {
-    width: 105%;
-    margin-left: 5%;
 }
 
-.container {
+.navbar ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*NAVBAR FIM*/
+.fundoNoticias{
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
     display: flex;
-    justify-content: space-between; /* Espaço entre as imagens e textos */
-    align-items: center; /* Alinha verticalmente */
-    flex-wrap: wrap; /* Permite que o layout seja responsivo */
-  }
-  
-  
-  .item p {
-    margin-top: 10px; /* Espaçamento entre a imagem e o texto */
-  }
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo no topo */
+    border-radius:30px;
+    background-color: rgb(0, 0, 0);
+    height: 120vh;
+}
+.noticiaGodOfWar{
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 200px;
+    text-align: center;
+}
+.h1Noticias{
+    text-align: center;
+    font-size: 3.5em; /* Aumenta o tamanho da fonte */
+}
+.imgGOD{
+    height: 100vh;
+    width: 1000vh;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 10px;
+}
 
-/*Fim classes*/
+.imgGODContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.textGOD {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3em;
+    line-height: 1.6;
+}
 
+.textGOD p {
+    margin-bottom: 15px;
+}
 
+.textGOD strong {
+    font-weight: bold;
+    color: #00ccff;
+}
 
+.jogo {
+    border-top: 2px solid #555;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    margin: 15px 0;
+    transform-origin: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
 
+.jogo:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #00a2ff;
+    box-shadow: 0px 8px 20px rgba(0, 162, 255, 0.6);
+}
+
+/* Adicionando um efeito de brilho na borda */
+.jogo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0, 153, 255, 0.5), rgba(255, 255, 255, 0.1));
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.jogo:hover::before {
+    opacity: 1;
+}
