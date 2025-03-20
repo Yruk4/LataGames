@@ -155,7 +155,7 @@ nav{
   }
   
   .item img {
-    width: 100%; 
+    width: 300px; 
     height: auto; 
     border-radius: 8px; 
   }
@@ -276,6 +276,7 @@ nav{
   
   .item p {
     margin-top: 10px; /* Espaçamento entre a imagem e o texto */
+    color: #5565ee;
   }
 
 /*Fim classes*/
