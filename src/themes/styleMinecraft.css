@@ -291,7 +291,7 @@ footer {
     width: relative;
     text-align: center;
     position: relative;
-    margin-top: 20vh;
+    margin-top: 0vh;
     padding: 20px;
 }
 
@@ -334,7 +334,7 @@ footer {
     font-size: 18px;
     font-family: Poppins, Arial;
     text-align: left;
-    padding: 30px;
+    padding: 20px;
 }
 
 .bloco-imagens-section4 {
