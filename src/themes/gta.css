@@ -28,6 +28,10 @@ html, body {
     font-size: x-large;
 }
 
+p{
+    color: azure;
+    font-size: 30px;
+}
 
 hr{
     margin:1px;
@@ -48,8 +52,7 @@ h1{
 }
 
 .h1Noticias{
-    font-style: italic;
-    font-family: 'Impact';
+    text-align: center; /* Centraliza o título */
 }
 
 h6{
@@ -78,16 +81,23 @@ main{
 footer {
     background: #222; 
     color: white; 
-    font-size: 24px;
+    font-size: 14px;
     width: relative;
     text-align: center;
     position: relative;
-    margin-top: 20vh;
+    margin-top: 400vh;
     padding: 20px;
 }
 
 /* Fim dos estilos de fonte*/
 
+/*Personalização imagens*/
+.imgSonic{
+    height: 100vh;
+    opacity: 0.2;
+    display: flex;
+    position: absolute;
+}
 
 header{
     margin: auto;
@@ -195,55 +205,41 @@ nav{
     color: black;
 }
 
+/*NAVBAR FIM*/
+.fundoNoticias{
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo no topo */
+    border-radius:30px;
+    background-color: rgb(0, 0, 0);
+    height: 120vh;
+}
+.noticiaGodOfWar{
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 200px;
+    text-align: center;
+}
+.h1Noticias{
+    text-align: center;
+    font-size: 3.5em; /* Aumenta o tamanho da fonte */
+}
+.imgGTA{
+    height: 45vh;
+    width: auto;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 10px;
+}
 
 .imgGODContainer{
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-.textGOD {
-    margin-top: 30px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    color: white;
-    font-size: 1.3em;
-    line-height: 1.6;
-}
 
-.textGOD p {
-    margin-bottom: 15px;
-}
 
-.textGOD strong {
-    font-weight: bold;
-    color: #00ccff;
-}
-
-.sobre{
-    background-color: #000000;
-    display: flex;
-    margin: 10vh;
-    width: auto;
-    height: auto;
-    font-size: 40px;
-}
-
-.sobre2{
-    
-    text-align: center;
-    font-size: 30px;
-    align-items: center;
-    background-color: #000000;
-}
-
-p{
-    color: #ffffff;
-    font-size: 30px;
-}
-
-li{
-    color:#cf301b;
-}
 
 

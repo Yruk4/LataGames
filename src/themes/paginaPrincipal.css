@@ -86,11 +86,11 @@ main{
 footer {
     background: #222; 
     color: white; 
-    font-size: 14px;
+    font-size: 24px;
     width: relative;
     text-align: center;
     position: relative;
-    margin-top: 50vh;
+    margin-top: 10vh;
     padding: 20px;
     
   }
@@ -277,6 +277,11 @@ nav{
   
   .item p {
     margin-top: 10px; 
+  }
+
+  a{
+    color: #ddd;
+    text-decoration: none;
   }
 
 /*Fim classes*/
