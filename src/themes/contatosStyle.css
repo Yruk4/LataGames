@@ -205,45 +205,57 @@ nav{
 }
 
 .balao {
+    display: flex;
+    align-items: center;  /* Centraliza verticalmente o conteúdo no balão */
+    justify-content: flex-start;
     background-color: #555;
     color: #fff;
-    padding: 25px;
+    padding: 10px;
     margin: 15px 0;
     border-radius: 15px;
     width: 80%;
-    max-width: 450px;
+    max-width: 500px;
     box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-    text-align: center;
     transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s ease;
 }
 
-.balao:hover {
-    transform: scale(1.1);
-    box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+.balao img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    margin-right: 20px;  /* Espaço entre a imagem e o texto */
+}
+
+.balao-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centraliza os itens verticalmente dentro da coluna */
+    text-align: center;  /* Centraliza o texto horizontalmente */
+    width: calc(100% - 170px); /* Considera a largura da imagem e o espaçamento */
 }
 
 .balao h2 {
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;  /* Remove margem superior e ajusta margem inferior */
     font-size: 20px;
     font-family: 'Press Start 2P', cursive;
     color: #ff0000;
+    text-align: center;  /* Centraliza o título */
 }
 
 .balao p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     margin: 5px 0;
+    text-align: center;  /* Centraliza o parágrafo */
 }
 
-body {
-    background-color: #222;
-    font-family: Arial, sans-serif;
-}
 .balao a {
+    display: block;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease, text-shadow 0.3s ease;
+    text-align: center;  /* Centraliza os links */
 }
 
 .balao a:hover {
